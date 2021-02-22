@@ -1,0 +1,98 @@
+Counterexample:
+
+State 32
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread 0 (main) scheduled
+
+State 51 file examples/lazy_unsafe.c line 42 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_create(thread 1)
+
+State 58 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread spawned
+
+State 69 file examples/lazy_unsafe.c line 43 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_create(thread 2)
+
+State 76 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread spawned
+
+State 87 file examples/lazy_unsafe.c line 44 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_create(thread 3)
+
+State 94 thread 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread spawned
+
+State 113
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread 1 (thread1) scheduled
+
+State 121 file examples/lazy_unsafe.c line 11 thread 1
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_mutex_lock(&m)
+
+State 129 thread 1
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  lock acquired
+
+State 134 file examples/lazy_unsafe.c line 12 function thread1 thread 1
+----------------------------------------------------
+  data=1
+
+State 138 file examples/lazy_unsafe.c line 13 thread 1
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_mutex_unlock(&m)
+
+State 146 thread 1
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  lock released
+
+State 163
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread 2 (thread2) scheduled
+
+State 171 file examples/lazy_unsafe.c line 19 thread 2
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_mutex_lock(&m)
+
+State 179 thread 2
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  lock acquired
+
+State 184 file examples/lazy_unsafe.c line 20 function thread2 thread 2
+----------------------------------------------------
+  data=3
+
+State 188 file examples/lazy_unsafe.c line 21 thread 2
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_mutex_unlock(&m)
+
+State 196 thread 2
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  lock released
+
+State 213
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  thread 3 (thread3) scheduled
+
+State 221 file examples/lazy_unsafe.c line 27 thread 3
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  pthread_mutex_lock(&m)
+
+State 229 thread 3
+- - - - - - - - - - - - - - - - - - - - - - - - - - 
+  lock acquired
+
+Violated property:
+  file examples/lazy_unsafe.c line 29
+  assertion 0
+  0 != 0
+
+VERIFICATION FAILED
+
+examples/lazy_unsafe.c, [91mUNSAFE[0m, 0.65, 27.11MB

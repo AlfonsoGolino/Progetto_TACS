@@ -1,0 +1,1745 @@
+/* workarounds LINE NO. : 0
+# 3 "<previous_module>"
+LINE NO. : 1
+typedef int _____STARTSTRIPPINGFROMHERE_____;
+LINE NO. : 1
+# 4 "<previous_module>"
+LINE NO. : 2
+typedef int __cs_barrier_t;
+LINE NO. : 2
+# 5 "<previous_module>"
+LINE NO. : 3
+typedef int __cs_barrierattr_t;
+LINE NO. : 3
+# 6 "<previous_module>"
+LINE NO. : 4
+typedef int __cs_attr_t;
+LINE NO. : 4
+# 7 "<previous_module>"
+LINE NO. : 5
+typedef int __cs_cond_t;
+LINE NO. : 5
+# 8 "<previous_module>"
+LINE NO. : 6
+typedef int __cs_condattr_t;
+LINE NO. : 6
+# 9 "<previous_module>"
+LINE NO. : 7
+typedef int __cs_key_t;
+LINE NO. : 7
+# 10 "<previous_module>"
+LINE NO. : 8
+typedef int __cs_mutex_t;
+LINE NO. : 8
+# 11 "<previous_module>"
+LINE NO. : 9
+typedef int __cs_mutexattr_t;
+LINE NO. : 9
+# 12 "<previous_module>"
+LINE NO. : 10
+typedef int __cs_once_t;
+LINE NO. : 10
+# 13 "<previous_module>"
+LINE NO. : 11
+typedef int __cs_rwlock_t;
+LINE NO. : 11
+# 14 "<previous_module>"
+LINE NO. : 12
+typedef int __cs_rwlockattr_t;
+LINE NO. : 12
+# 15 "<previous_module>"
+LINE NO. : 13
+typedef int __cs_t;
+LINE NO. : 13
+# 16 "<previous_module>"
+LINE NO. : 14
+typedef int size_t;
+LINE NO. : 14
+# 17 "<previous_module>"
+LINE NO. : 15
+typedef int __builtin_va_list;
+LINE NO. : 15
+# 18 "<previous_module>"
+LINE NO. : 16
+typedef int __gnuc_va_list;
+LINE NO. : 16
+# 19 "<previous_module>"
+LINE NO. : 17
+typedef int __int8_t;
+LINE NO. : 17
+# 20 "<previous_module>"
+LINE NO. : 18
+typedef int __uint8_t;
+LINE NO. : 18
+# 21 "<previous_module>"
+LINE NO. : 19
+typedef int __int16_t;
+LINE NO. : 19
+# 22 "<previous_module>"
+LINE NO. : 20
+typedef int __uint16_t;
+LINE NO. : 20
+# 23 "<previous_module>"
+LINE NO. : 21
+typedef int __int_least16_t;
+LINE NO. : 21
+# 24 "<previous_module>"
+LINE NO. : 22
+typedef int __uint_least16_t;
+LINE NO. : 22
+# 25 "<previous_module>"
+LINE NO. : 23
+typedef int __int32_t;
+LINE NO. : 23
+# 26 "<previous_module>"
+LINE NO. : 24
+typedef int __uint32_t;
+LINE NO. : 24
+# 27 "<previous_module>"
+LINE NO. : 25
+typedef int __int64_t;
+LINE NO. : 25
+# 28 "<previous_module>"
+LINE NO. : 26
+typedef int __uint64_t;
+LINE NO. : 26
+# 29 "<previous_module>"
+LINE NO. : 27
+typedef int __int_least32_t;
+LINE NO. : 27
+# 30 "<previous_module>"
+LINE NO. : 28
+typedef int __uint_least32_t;
+LINE NO. : 28
+# 31 "<previous_module>"
+LINE NO. : 29
+typedef int __s8;
+LINE NO. : 29
+# 32 "<previous_module>"
+LINE NO. : 30
+typedef int __u8;
+LINE NO. : 30
+# 33 "<previous_module>"
+LINE NO. : 31
+typedef int __s16;
+LINE NO. : 31
+# 34 "<previous_module>"
+LINE NO. : 32
+typedef int __u16;
+LINE NO. : 32
+# 35 "<previous_module>"
+LINE NO. : 33
+typedef int __s32;
+LINE NO. : 33
+# 36 "<previous_module>"
+LINE NO. : 34
+typedef int __u32;
+LINE NO. : 34
+# 37 "<previous_module>"
+LINE NO. : 35
+typedef int __s64;
+LINE NO. : 35
+# 38 "<previous_module>"
+LINE NO. : 36
+typedef int __u64;
+LINE NO. : 36
+# 39 "<previous_module>"
+LINE NO. : 37
+typedef int _LOCK_T;
+LINE NO. : 37
+# 40 "<previous_module>"
+LINE NO. : 38
+typedef int _LOCK_RECURSIVE_T;
+LINE NO. : 38
+# 41 "<previous_module>"
+LINE NO. : 39
+typedef int _off_t;
+LINE NO. : 39
+# 42 "<previous_module>"
+LINE NO. : 40
+typedef int __dev_t;
+LINE NO. : 40
+# 43 "<previous_module>"
+LINE NO. : 41
+typedef int __uid_t;
+LINE NO. : 41
+# 44 "<previous_module>"
+LINE NO. : 42
+typedef int __gid_t;
+LINE NO. : 42
+# 45 "<previous_module>"
+LINE NO. : 43
+typedef int _off64_t;
+LINE NO. : 43
+# 46 "<previous_module>"
+LINE NO. : 44
+typedef int _fpos_t;
+LINE NO. : 44
+# 47 "<previous_module>"
+LINE NO. : 45
+typedef int _ssize_t;
+LINE NO. : 45
+# 48 "<previous_module>"
+LINE NO. : 46
+typedef int wint_t;
+LINE NO. : 46
+# 49 "<previous_module>"
+LINE NO. : 47
+typedef int _mbstate_t;
+LINE NO. : 47
+# 50 "<previous_module>"
+LINE NO. : 48
+typedef int _flock_t;
+LINE NO. : 48
+# 51 "<previous_module>"
+LINE NO. : 49
+typedef int _iconv_t;
+LINE NO. : 49
+# 52 "<previous_module>"
+LINE NO. : 50
+typedef int __ULong;
+LINE NO. : 50
+# 53 "<previous_module>"
+LINE NO. : 51
+typedef int __FILE;
+LINE NO. : 51
+# 54 "<previous_module>"
+LINE NO. : 52
+typedef int ptrdiff_t;
+LINE NO. : 52
+# 55 "<previous_module>"
+LINE NO. : 53
+typedef int wchar_t;
+LINE NO. : 53
+# 56 "<previous_module>"
+LINE NO. : 54
+typedef int __off_t;
+LINE NO. : 54
+# 57 "<previous_module>"
+LINE NO. : 55
+typedef int __pid_t;
+LINE NO. : 55
+# 58 "<previous_module>"
+LINE NO. : 56
+typedef int __loff_t;
+LINE NO. : 56
+# 59 "<previous_module>"
+LINE NO. : 57
+typedef int u_char;
+LINE NO. : 57
+# 60 "<previous_module>"
+LINE NO. : 58
+typedef int u_short;
+LINE NO. : 58
+# 61 "<previous_module>"
+LINE NO. : 59
+typedef int u_int;
+LINE NO. : 59
+# 62 "<previous_module>"
+LINE NO. : 60
+typedef int u_long;
+LINE NO. : 60
+# 63 "<previous_module>"
+LINE NO. : 61
+typedef int ushort;
+LINE NO. : 61
+# 64 "<previous_module>"
+LINE NO. : 62
+typedef int uint;
+LINE NO. : 62
+# 65 "<previous_module>"
+LINE NO. : 63
+typedef int clock_t;
+LINE NO. : 63
+# 66 "<previous_module>"
+LINE NO. : 64
+typedef int time_t;
+LINE NO. : 64
+# 67 "<previous_module>"
+LINE NO. : 65
+typedef int daddr_t;
+LINE NO. : 65
+# 68 "<previous_module>"
+LINE NO. : 66
+typedef int caddr_t;
+LINE NO. : 66
+# 69 "<previous_module>"
+LINE NO. : 67
+typedef int ino_t;
+LINE NO. : 67
+# 70 "<previous_module>"
+LINE NO. : 68
+typedef int off_t;
+LINE NO. : 68
+# 71 "<previous_module>"
+LINE NO. : 69
+typedef int dev_t;
+LINE NO. : 69
+# 72 "<previous_module>"
+LINE NO. : 70
+typedef int uid_t;
+LINE NO. : 70
+# 73 "<previous_module>"
+LINE NO. : 71
+typedef int gid_t;
+LINE NO. : 71
+# 74 "<previous_module>"
+LINE NO. : 72
+typedef int pid_t;
+LINE NO. : 72
+# 75 "<previous_module>"
+LINE NO. : 73
+typedef int key_t;
+LINE NO. : 73
+# 76 "<previous_module>"
+LINE NO. : 74
+typedef int ssize_t;
+LINE NO. : 74
+# 77 "<previous_module>"
+LINE NO. : 75
+typedef int mode_t;
+LINE NO. : 75
+# 78 "<previous_module>"
+LINE NO. : 76
+typedef int nlink_t;
+LINE NO. : 76
+# 79 "<previous_module>"
+LINE NO. : 77
+typedef int fd_mask;
+LINE NO. : 77
+# 80 "<previous_module>"
+LINE NO. : 78
+typedef int _types_fd_set;
+LINE NO. : 78
+# 81 "<previous_module>"
+LINE NO. : 79
+typedef int fd_set;
+LINE NO. : 79
+# 82 "<previous_module>"
+LINE NO. : 80
+typedef int clockid_t;
+LINE NO. : 80
+# 83 "<previous_module>"
+LINE NO. : 81
+typedef int timer_t;
+LINE NO. : 81
+# 84 "<previous_module>"
+LINE NO. : 82
+typedef int useconds_t;
+LINE NO. : 82
+# 85 "<previous_module>"
+LINE NO. : 83
+typedef int suseconds_t;
+LINE NO. : 83
+# 86 "<previous_module>"
+LINE NO. : 84
+typedef int FILE;
+LINE NO. : 84
+# 87 "<previous_module>"
+LINE NO. : 85
+typedef int fpos_t;
+LINE NO. : 85
+# 88 "<previous_module>"
+LINE NO. : 86
+typedef int cookie_read_function_t;
+LINE NO. : 86
+# 89 "<previous_module>"
+LINE NO. : 87
+typedef int cookie_write_function_t;
+LINE NO. : 87
+# 90 "<previous_module>"
+LINE NO. : 88
+typedef int cookie_seek_function_t;
+LINE NO. : 88
+# 91 "<previous_module>"
+LINE NO. : 89
+typedef int cookie_close_function_t;
+LINE NO. : 89
+# 92 "<previous_module>"
+LINE NO. : 90
+typedef int cookie_io_functions_t;
+LINE NO. : 90
+# 93 "<previous_module>"
+LINE NO. : 91
+typedef int div_t;
+LINE NO. : 91
+# 94 "<previous_module>"
+LINE NO. : 92
+typedef int ldiv_t;
+LINE NO. : 92
+# 95 "<previous_module>"
+LINE NO. : 93
+typedef int lldiv_t;
+LINE NO. : 93
+# 96 "<previous_module>"
+LINE NO. : 94
+typedef int sigset_t;
+LINE NO. : 94
+# 97 "<previous_module>"
+LINE NO. : 95
+typedef int __sigset_t;
+LINE NO. : 95
+# 98 "<previous_module>"
+LINE NO. : 96
+typedef int _sig_func_ptr;
+LINE NO. : 96
+# 99 "<previous_module>"
+LINE NO. : 97
+typedef int sig_atomic_t;
+LINE NO. : 97
+# 100 "<previous_module>"
+LINE NO. : 98
+typedef int __tzrule_type;
+LINE NO. : 98
+# 101 "<previous_module>"
+LINE NO. : 99
+typedef int __tzinfo_type;
+LINE NO. : 99
+# 102 "<previous_module>"
+LINE NO. : 100
+typedef int mbstate_t;
+LINE NO. : 100
+# 103 "<previous_module>"
+LINE NO. : 101
+typedef int sem_t;
+LINE NO. : 101
+# 104 "<previous_module>"
+LINE NO. : 102
+typedef int pthread_t;
+LINE NO. : 102
+# 105 "<previous_module>"
+LINE NO. : 103
+typedef int pthread_attr_t;
+LINE NO. : 103
+# 106 "<previous_module>"
+LINE NO. : 104
+typedef int pthread_mutex_t;
+LINE NO. : 104
+# 107 "<previous_module>"
+LINE NO. : 105
+typedef int pthread_mutexattr_t;
+LINE NO. : 105
+# 108 "<previous_module>"
+LINE NO. : 106
+typedef int pthread_cond_t;
+LINE NO. : 106
+# 109 "<previous_module>"
+LINE NO. : 107
+typedef int pthread_condattr_t;
+LINE NO. : 107
+# 110 "<previous_module>"
+LINE NO. : 108
+typedef int pthread_key_t;
+LINE NO. : 108
+# 111 "<previous_module>"
+LINE NO. : 109
+typedef int pthread_once_t;
+LINE NO. : 109
+# 112 "<previous_module>"
+LINE NO. : 110
+typedef int pthread_rwlock_t;
+LINE NO. : 110
+# 113 "<previous_module>"
+LINE NO. : 111
+typedef int pthread_rwlockattr_t;
+LINE NO. : 111
+# 114 "<previous_module>"
+LINE NO. : 112
+typedef int pthread_spinlock_t;
+LINE NO. : 112
+# 115 "<previous_module>"
+LINE NO. : 113
+typedef int pthread_barrier_t;
+LINE NO. : 113
+# 116 "<previous_module>"
+LINE NO. : 114
+typedef int pthread_barrierattr_t;
+LINE NO. : 114
+# 117 "<previous_module>"
+LINE NO. : 115
+typedef int jmp_buf;
+LINE NO. : 115
+# 118 "<previous_module>"
+LINE NO. : 116
+typedef int rlim_t;
+LINE NO. : 116
+# 119 "<previous_module>"
+LINE NO. : 117
+typedef int sa_family_t;
+LINE NO. : 117
+# 120 "<previous_module>"
+LINE NO. : 118
+typedef int sigjmp_buf;
+LINE NO. : 118
+# 121 "<previous_module>"
+LINE NO. : 119
+typedef int stack_t;
+LINE NO. : 119
+# 122 "<previous_module>"
+LINE NO. : 120
+typedef int siginfo_t;
+LINE NO. : 120
+# 123 "<previous_module>"
+LINE NO. : 121
+typedef int z_stream;
+LINE NO. : 121
+# 126 "<previous_module>"
+LINE NO. : 122
+typedef int int8_t;
+LINE NO. : 122
+# 127 "<previous_module>"
+LINE NO. : 123
+typedef int uint8_t;
+LINE NO. : 123
+# 128 "<previous_module>"
+LINE NO. : 124
+typedef int int16_t;
+LINE NO. : 124
+# 129 "<previous_module>"
+LINE NO. : 125
+typedef int uint16_t;
+LINE NO. : 125
+# 130 "<previous_module>"
+LINE NO. : 126
+typedef int int32_t;
+LINE NO. : 126
+# 131 "<previous_module>"
+LINE NO. : 127
+typedef int uint32_t;
+LINE NO. : 127
+# 132 "<previous_module>"
+LINE NO. : 128
+typedef int int64_t;
+LINE NO. : 128
+# 133 "<previous_module>"
+LINE NO. : 129
+typedef int uint64_t;
+LINE NO. : 129
+# 136 "<previous_module>"
+LINE NO. : 130
+typedef int int_least8_t;
+LINE NO. : 130
+# 137 "<previous_module>"
+LINE NO. : 131
+typedef int uint_least8_t;
+LINE NO. : 131
+# 138 "<previous_module>"
+LINE NO. : 132
+typedef int int_least16_t;
+LINE NO. : 132
+# 139 "<previous_module>"
+LINE NO. : 133
+typedef int uint_least16_t;
+LINE NO. : 133
+# 140 "<previous_module>"
+LINE NO. : 134
+typedef int int_least32_t;
+LINE NO. : 134
+# 141 "<previous_module>"
+LINE NO. : 135
+typedef int uint_least32_t;
+LINE NO. : 135
+# 142 "<previous_module>"
+LINE NO. : 136
+typedef int int_least64_t;
+LINE NO. : 136
+# 143 "<previous_module>"
+LINE NO. : 137
+typedef int uint_least64_t;
+LINE NO. : 137
+# 146 "<previous_module>"
+LINE NO. : 138
+typedef int int_fast8_t;
+LINE NO. : 138
+# 147 "<previous_module>"
+LINE NO. : 139
+typedef int uint_fast8_t;
+LINE NO. : 139
+# 148 "<previous_module>"
+LINE NO. : 140
+typedef int int_fast16_t;
+LINE NO. : 140
+# 149 "<previous_module>"
+LINE NO. : 141
+typedef int uint_fast16_t;
+LINE NO. : 141
+# 150 "<previous_module>"
+LINE NO. : 142
+typedef int int_fast32_t;
+LINE NO. : 142
+# 151 "<previous_module>"
+LINE NO. : 143
+typedef int uint_fast32_t;
+LINE NO. : 143
+# 152 "<previous_module>"
+LINE NO. : 144
+typedef int int_fast64_t;
+LINE NO. : 144
+# 153 "<previous_module>"
+LINE NO. : 145
+typedef int uint_fast64_t;
+LINE NO. : 145
+# 156 "<previous_module>"
+LINE NO. : 146
+typedef int intptr_t;
+LINE NO. : 146
+# 157 "<previous_module>"
+LINE NO. : 147
+typedef int uintptr_t;
+LINE NO. : 147
+# 160 "<previous_module>"
+LINE NO. : 148
+typedef int intmax_t;
+LINE NO. : 148
+# 161 "<previous_module>"
+LINE NO. : 149
+typedef int uintmax_t;
+LINE NO. : 149
+# 164 "<previous_module>"
+LINE NO. : 150
+typedef _Bool bool;
+LINE NO. : 150
+# 167 "<previous_module>"
+LINE NO. : 151
+typedef void BZFILE;
+LINE NO. : 151
+# 169 "<previous_module>"
+LINE NO. : 152
+typedef int va_list;
+LINE NO. : 152
+# 172 "<previous_module>"
+LINE NO. : 153
+typedef int loff_t;
+LINE NO. : 153
+# 174 "<previous_module>"
+LINE NO. : 154
+typedef int _____STOPSTRIPPINGFROMHERE_____;
+LINE NO. : 154
+# 176 "<previous_module>"
+LINE NO. : 155
+int flag1 = 0;
+LINE NO. : 156
+int flag2 = 0;
+LINE NO. : 156
+# 177 "<previous_module>"
+LINE NO. : 157
+int turn;
+LINE NO. : 157
+# 178 "<previous_module>"
+LINE NO. : 158
+int x;
+LINE NO. : 158
+# 179 "<previous_module>"
+LINE NO. : 159
+void *thr1(void *__cs_unused)
+LINE NO. : 160
+{
+LINE NO. : 160
+# 180 "<previous_module>"
+LINE NO. : 161
+flag1 = 1;
+LINE NO. : 161
+# 181 "<previous_module>"
+LINE NO. : 162
+turn = 1;
+LINE NO. : 162
+# 182 "<previous_module>"
+LINE NO. : 163
+while ((flag2 == 1) && (turn == 1))
+LINE NO. : 164
+        {
+LINE NO. : 165
+        }
+LINE NO. : 166
+        ;
+LINE NO. : 166
+# 183 "<previous_module>"
+LINE NO. : 167
+x = 0;
+LINE NO. : 167
+# 184 "<previous_module>"
+LINE NO. : 168
+if (!(x <= 0))
+LINE NO. : 169
+        {
+LINE NO. : 170
+                assert(0);
+LINE NO. : 171
+        }
+LINE NO. : 171
+# 185 "<previous_module>"
+LINE NO. : 172
+flag1 = 0;
+LINE NO. : 173
+}
+LINE NO. : 173
+# 187 "<previous_module>"
+LINE NO. : 174
+void *thr2(void *__cs_unused)
+LINE NO. : 175
+{
+LINE NO. : 175
+# 188 "<previous_module>"
+LINE NO. : 176
+flag2 = 1;
+LINE NO. : 176
+# 189 "<previous_module>"
+LINE NO. : 177
+turn = 0;
+LINE NO. : 177
+# 190 "<previous_module>"
+LINE NO. : 178
+while ((flag1 == 1) && (turn == 0))
+LINE NO. : 179
+        {
+LINE NO. : 180
+        }
+LINE NO. : 181
+        ;
+LINE NO. : 181
+# 191 "<previous_module>"
+LINE NO. : 182
+x = 1;
+LINE NO. : 182
+# 192 "<previous_module>"
+LINE NO. : 183
+if (!(x >= 1))
+LINE NO. : 184
+        {
+LINE NO. : 185
+                flag1 = flag1;
+LINE NO. : 186
+                flag2 = flag2;
+LINE NO. : 187
+                assert(0);
+LINE NO. : 188
+        }
+LINE NO. : 188
+# 193 "<previous_module>"
+LINE NO. : 189
+flag2 = 0;
+LINE NO. : 190
+}
+LINE NO. : 190
+# 195 "<previous_module>"
+LINE NO. : 191
+int main()
+LINE NO. : 192
+{
+LINE NO. : 192
+# 196 "<previous_module>"
+LINE NO. : 193
+pthread_t t1;
+LINE NO. : 194
+        pthread_t t2;
+LINE NO. : 194
+# 197 "<previous_module>"
+LINE NO. : 195
+pthread_create(&t1, 0, thr1, 0);
+LINE NO. : 195
+# 198 "<previous_module>"
+LINE NO. : 196
+pthread_create(&t2, 0, thr2, 0);
+LINE NO. : 196
+# 199 "<previous_module>"
+LINE NO. : 197
+pthread_join(t1, 0);
+LINE NO. : 197
+# 200 "<previous_module>"
+LINE NO. : 198
+pthread_join(t2, 0);
+LINE NO. : 198
+# 201 "<previous_module>"
+LINE NO. : 199
+return 0;
+LINE NO. : 200
+}
+[01] ok 0.00s */
+/* functiontracker LINE NO. : 0
+# 1 "<previous_module>"
+LINE NO. : 1
+typedef int _____STARTSTRIPPINGFROMHERE_____;
+LINE NO. : 1
+# 2 "<previous_module>"
+LINE NO. : 2
+typedef int __cs_barrier_t;
+LINE NO. : 2
+# 3 "<previous_module>"
+LINE NO. : 3
+typedef int __cs_barrierattr_t;
+LINE NO. : 3
+# 4 "<previous_module>"
+LINE NO. : 4
+typedef int __cs_attr_t;
+LINE NO. : 4
+# 5 "<previous_module>"
+LINE NO. : 5
+typedef int __cs_cond_t;
+LINE NO. : 5
+# 6 "<previous_module>"
+LINE NO. : 6
+typedef int __cs_condattr_t;
+LINE NO. : 6
+# 7 "<previous_module>"
+LINE NO. : 7
+typedef int __cs_key_t;
+LINE NO. : 7
+# 8 "<previous_module>"
+LINE NO. : 8
+typedef int __cs_mutex_t;
+LINE NO. : 8
+# 9 "<previous_module>"
+LINE NO. : 9
+typedef int __cs_mutexattr_t;
+LINE NO. : 9
+# 10 "<previous_module>"
+LINE NO. : 10
+typedef int __cs_once_t;
+LINE NO. : 10
+# 11 "<previous_module>"
+LINE NO. : 11
+typedef int __cs_rwlock_t;
+LINE NO. : 11
+# 12 "<previous_module>"
+LINE NO. : 12
+typedef int __cs_rwlockattr_t;
+LINE NO. : 12
+# 13 "<previous_module>"
+LINE NO. : 13
+typedef int __cs_t;
+LINE NO. : 13
+# 14 "<previous_module>"
+LINE NO. : 14
+typedef int size_t;
+LINE NO. : 14
+# 15 "<previous_module>"
+LINE NO. : 15
+typedef int __builtin_va_list;
+LINE NO. : 15
+# 16 "<previous_module>"
+LINE NO. : 16
+typedef int __gnuc_va_list;
+LINE NO. : 16
+# 17 "<previous_module>"
+LINE NO. : 17
+typedef int __int8_t;
+LINE NO. : 17
+# 18 "<previous_module>"
+LINE NO. : 18
+typedef int __uint8_t;
+LINE NO. : 18
+# 19 "<previous_module>"
+LINE NO. : 19
+typedef int __int16_t;
+LINE NO. : 19
+# 20 "<previous_module>"
+LINE NO. : 20
+typedef int __uint16_t;
+LINE NO. : 20
+# 21 "<previous_module>"
+LINE NO. : 21
+typedef int __int_least16_t;
+LINE NO. : 21
+# 22 "<previous_module>"
+LINE NO. : 22
+typedef int __uint_least16_t;
+LINE NO. : 22
+# 23 "<previous_module>"
+LINE NO. : 23
+typedef int __int32_t;
+LINE NO. : 23
+# 24 "<previous_module>"
+LINE NO. : 24
+typedef int __uint32_t;
+LINE NO. : 24
+# 25 "<previous_module>"
+LINE NO. : 25
+typedef int __int64_t;
+LINE NO. : 25
+# 26 "<previous_module>"
+LINE NO. : 26
+typedef int __uint64_t;
+LINE NO. : 26
+# 27 "<previous_module>"
+LINE NO. : 27
+typedef int __int_least32_t;
+LINE NO. : 27
+# 28 "<previous_module>"
+LINE NO. : 28
+typedef int __uint_least32_t;
+LINE NO. : 28
+# 29 "<previous_module>"
+LINE NO. : 29
+typedef int __s8;
+LINE NO. : 29
+# 30 "<previous_module>"
+LINE NO. : 30
+typedef int __u8;
+LINE NO. : 30
+# 31 "<previous_module>"
+LINE NO. : 31
+typedef int __s16;
+LINE NO. : 31
+# 32 "<previous_module>"
+LINE NO. : 32
+typedef int __u16;
+LINE NO. : 32
+# 33 "<previous_module>"
+LINE NO. : 33
+typedef int __s32;
+LINE NO. : 33
+# 34 "<previous_module>"
+LINE NO. : 34
+typedef int __u32;
+LINE NO. : 34
+# 35 "<previous_module>"
+LINE NO. : 35
+typedef int __s64;
+LINE NO. : 35
+# 36 "<previous_module>"
+LINE NO. : 36
+typedef int __u64;
+LINE NO. : 36
+# 37 "<previous_module>"
+LINE NO. : 37
+typedef int _LOCK_T;
+LINE NO. : 37
+# 38 "<previous_module>"
+LINE NO. : 38
+typedef int _LOCK_RECURSIVE_T;
+LINE NO. : 38
+# 39 "<previous_module>"
+LINE NO. : 39
+typedef int _off_t;
+LINE NO. : 39
+# 40 "<previous_module>"
+LINE NO. : 40
+typedef int __dev_t;
+LINE NO. : 40
+# 41 "<previous_module>"
+LINE NO. : 41
+typedef int __uid_t;
+LINE NO. : 41
+# 42 "<previous_module>"
+LINE NO. : 42
+typedef int __gid_t;
+LINE NO. : 42
+# 43 "<previous_module>"
+LINE NO. : 43
+typedef int _off64_t;
+LINE NO. : 43
+# 44 "<previous_module>"
+LINE NO. : 44
+typedef int _fpos_t;
+LINE NO. : 44
+# 45 "<previous_module>"
+LINE NO. : 45
+typedef int _ssize_t;
+LINE NO. : 45
+# 46 "<previous_module>"
+LINE NO. : 46
+typedef int wint_t;
+LINE NO. : 46
+# 47 "<previous_module>"
+LINE NO. : 47
+typedef int _mbstate_t;
+LINE NO. : 47
+# 48 "<previous_module>"
+LINE NO. : 48
+typedef int _flock_t;
+LINE NO. : 48
+# 49 "<previous_module>"
+LINE NO. : 49
+typedef int _iconv_t;
+LINE NO. : 49
+# 50 "<previous_module>"
+LINE NO. : 50
+typedef int __ULong;
+LINE NO. : 50
+# 51 "<previous_module>"
+LINE NO. : 51
+typedef int __FILE;
+LINE NO. : 51
+# 52 "<previous_module>"
+LINE NO. : 52
+typedef int ptrdiff_t;
+LINE NO. : 52
+# 53 "<previous_module>"
+LINE NO. : 53
+typedef int wchar_t;
+LINE NO. : 53
+# 54 "<previous_module>"
+LINE NO. : 54
+typedef int __off_t;
+LINE NO. : 54
+# 55 "<previous_module>"
+LINE NO. : 55
+typedef int __pid_t;
+LINE NO. : 55
+# 56 "<previous_module>"
+LINE NO. : 56
+typedef int __loff_t;
+LINE NO. : 56
+# 57 "<previous_module>"
+LINE NO. : 57
+typedef int u_char;
+LINE NO. : 57
+# 58 "<previous_module>"
+LINE NO. : 58
+typedef int u_short;
+LINE NO. : 58
+# 59 "<previous_module>"
+LINE NO. : 59
+typedef int u_int;
+LINE NO. : 59
+# 60 "<previous_module>"
+LINE NO. : 60
+typedef int u_long;
+LINE NO. : 60
+# 61 "<previous_module>"
+LINE NO. : 61
+typedef int ushort;
+LINE NO. : 61
+# 62 "<previous_module>"
+LINE NO. : 62
+typedef int uint;
+LINE NO. : 62
+# 63 "<previous_module>"
+LINE NO. : 63
+typedef int clock_t;
+LINE NO. : 63
+# 64 "<previous_module>"
+LINE NO. : 64
+typedef int time_t;
+LINE NO. : 64
+# 65 "<previous_module>"
+LINE NO. : 65
+typedef int daddr_t;
+LINE NO. : 65
+# 66 "<previous_module>"
+LINE NO. : 66
+typedef int caddr_t;
+LINE NO. : 66
+# 67 "<previous_module>"
+LINE NO. : 67
+typedef int ino_t;
+LINE NO. : 67
+# 68 "<previous_module>"
+LINE NO. : 68
+typedef int off_t;
+LINE NO. : 68
+# 69 "<previous_module>"
+LINE NO. : 69
+typedef int dev_t;
+LINE NO. : 69
+# 70 "<previous_module>"
+LINE NO. : 70
+typedef int uid_t;
+LINE NO. : 70
+# 71 "<previous_module>"
+LINE NO. : 71
+typedef int gid_t;
+LINE NO. : 71
+# 72 "<previous_module>"
+LINE NO. : 72
+typedef int pid_t;
+LINE NO. : 72
+# 73 "<previous_module>"
+LINE NO. : 73
+typedef int key_t;
+LINE NO. : 73
+# 74 "<previous_module>"
+LINE NO. : 74
+typedef int ssize_t;
+LINE NO. : 74
+# 75 "<previous_module>"
+LINE NO. : 75
+typedef int mode_t;
+LINE NO. : 75
+# 76 "<previous_module>"
+LINE NO. : 76
+typedef int nlink_t;
+LINE NO. : 76
+# 77 "<previous_module>"
+LINE NO. : 77
+typedef int fd_mask;
+LINE NO. : 77
+# 78 "<previous_module>"
+LINE NO. : 78
+typedef int _types_fd_set;
+LINE NO. : 78
+# 79 "<previous_module>"
+LINE NO. : 79
+typedef int fd_set;
+LINE NO. : 79
+# 80 "<previous_module>"
+LINE NO. : 80
+typedef int clockid_t;
+LINE NO. : 80
+# 81 "<previous_module>"
+LINE NO. : 81
+typedef int timer_t;
+LINE NO. : 81
+# 82 "<previous_module>"
+LINE NO. : 82
+typedef int useconds_t;
+LINE NO. : 82
+# 83 "<previous_module>"
+LINE NO. : 83
+typedef int suseconds_t;
+LINE NO. : 83
+# 84 "<previous_module>"
+LINE NO. : 84
+typedef int FILE;
+LINE NO. : 84
+# 85 "<previous_module>"
+LINE NO. : 85
+typedef int fpos_t;
+LINE NO. : 85
+# 86 "<previous_module>"
+LINE NO. : 86
+typedef int cookie_read_function_t;
+LINE NO. : 86
+# 87 "<previous_module>"
+LINE NO. : 87
+typedef int cookie_write_function_t;
+LINE NO. : 87
+# 88 "<previous_module>"
+LINE NO. : 88
+typedef int cookie_seek_function_t;
+LINE NO. : 88
+# 89 "<previous_module>"
+LINE NO. : 89
+typedef int cookie_close_function_t;
+LINE NO. : 89
+# 90 "<previous_module>"
+LINE NO. : 90
+typedef int cookie_io_functions_t;
+LINE NO. : 90
+# 91 "<previous_module>"
+LINE NO. : 91
+typedef int div_t;
+LINE NO. : 91
+# 92 "<previous_module>"
+LINE NO. : 92
+typedef int ldiv_t;
+LINE NO. : 92
+# 93 "<previous_module>"
+LINE NO. : 93
+typedef int lldiv_t;
+LINE NO. : 93
+# 94 "<previous_module>"
+LINE NO. : 94
+typedef int sigset_t;
+LINE NO. : 94
+# 95 "<previous_module>"
+LINE NO. : 95
+typedef int __sigset_t;
+LINE NO. : 95
+# 96 "<previous_module>"
+LINE NO. : 96
+typedef int _sig_func_ptr;
+LINE NO. : 96
+# 97 "<previous_module>"
+LINE NO. : 97
+typedef int sig_atomic_t;
+LINE NO. : 97
+# 98 "<previous_module>"
+LINE NO. : 98
+typedef int __tzrule_type;
+LINE NO. : 98
+# 99 "<previous_module>"
+LINE NO. : 99
+typedef int __tzinfo_type;
+LINE NO. : 99
+# 100 "<previous_module>"
+LINE NO. : 100
+typedef int mbstate_t;
+LINE NO. : 100
+# 101 "<previous_module>"
+LINE NO. : 101
+typedef int sem_t;
+LINE NO. : 101
+# 102 "<previous_module>"
+LINE NO. : 102
+typedef int pthread_t;
+LINE NO. : 102
+# 103 "<previous_module>"
+LINE NO. : 103
+typedef int pthread_attr_t;
+LINE NO. : 103
+# 104 "<previous_module>"
+LINE NO. : 104
+typedef int pthread_mutex_t;
+LINE NO. : 104
+# 105 "<previous_module>"
+LINE NO. : 105
+typedef int pthread_mutexattr_t;
+LINE NO. : 105
+# 106 "<previous_module>"
+LINE NO. : 106
+typedef int pthread_cond_t;
+LINE NO. : 106
+# 107 "<previous_module>"
+LINE NO. : 107
+typedef int pthread_condattr_t;
+LINE NO. : 107
+# 108 "<previous_module>"
+LINE NO. : 108
+typedef int pthread_key_t;
+LINE NO. : 108
+# 109 "<previous_module>"
+LINE NO. : 109
+typedef int pthread_once_t;
+LINE NO. : 109
+# 110 "<previous_module>"
+LINE NO. : 110
+typedef int pthread_rwlock_t;
+LINE NO. : 110
+# 111 "<previous_module>"
+LINE NO. : 111
+typedef int pthread_rwlockattr_t;
+LINE NO. : 111
+# 112 "<previous_module>"
+LINE NO. : 112
+typedef int pthread_spinlock_t;
+LINE NO. : 112
+# 113 "<previous_module>"
+LINE NO. : 113
+typedef int pthread_barrier_t;
+LINE NO. : 113
+# 114 "<previous_module>"
+LINE NO. : 114
+typedef int pthread_barrierattr_t;
+LINE NO. : 114
+# 115 "<previous_module>"
+LINE NO. : 115
+typedef int jmp_buf;
+LINE NO. : 115
+# 116 "<previous_module>"
+LINE NO. : 116
+typedef int rlim_t;
+LINE NO. : 116
+# 117 "<previous_module>"
+LINE NO. : 117
+typedef int sa_family_t;
+LINE NO. : 117
+# 118 "<previous_module>"
+LINE NO. : 118
+typedef int sigjmp_buf;
+LINE NO. : 118
+# 119 "<previous_module>"
+LINE NO. : 119
+typedef int stack_t;
+LINE NO. : 119
+# 120 "<previous_module>"
+LINE NO. : 120
+typedef int siginfo_t;
+LINE NO. : 120
+# 121 "<previous_module>"
+LINE NO. : 121
+typedef int z_stream;
+LINE NO. : 121
+# 122 "<previous_module>"
+LINE NO. : 122
+typedef int int8_t;
+LINE NO. : 122
+# 123 "<previous_module>"
+LINE NO. : 123
+typedef int uint8_t;
+LINE NO. : 123
+# 124 "<previous_module>"
+LINE NO. : 124
+typedef int int16_t;
+LINE NO. : 124
+# 125 "<previous_module>"
+LINE NO. : 125
+typedef int uint16_t;
+LINE NO. : 125
+# 126 "<previous_module>"
+LINE NO. : 126
+typedef int int32_t;
+LINE NO. : 126
+# 127 "<previous_module>"
+LINE NO. : 127
+typedef int uint32_t;
+LINE NO. : 127
+# 128 "<previous_module>"
+LINE NO. : 128
+typedef int int64_t;
+LINE NO. : 128
+# 129 "<previous_module>"
+LINE NO. : 129
+typedef int uint64_t;
+LINE NO. : 129
+# 130 "<previous_module>"
+LINE NO. : 130
+typedef int int_least8_t;
+LINE NO. : 130
+# 131 "<previous_module>"
+LINE NO. : 131
+typedef int uint_least8_t;
+LINE NO. : 131
+# 132 "<previous_module>"
+LINE NO. : 132
+typedef int int_least16_t;
+LINE NO. : 132
+# 133 "<previous_module>"
+LINE NO. : 133
+typedef int uint_least16_t;
+LINE NO. : 133
+# 134 "<previous_module>"
+LINE NO. : 134
+typedef int int_least32_t;
+LINE NO. : 134
+# 135 "<previous_module>"
+LINE NO. : 135
+typedef int uint_least32_t;
+LINE NO. : 135
+# 136 "<previous_module>"
+LINE NO. : 136
+typedef int int_least64_t;
+LINE NO. : 136
+# 137 "<previous_module>"
+LINE NO. : 137
+typedef int uint_least64_t;
+LINE NO. : 137
+# 138 "<previous_module>"
+LINE NO. : 138
+typedef int int_fast8_t;
+LINE NO. : 138
+# 139 "<previous_module>"
+LINE NO. : 139
+typedef int uint_fast8_t;
+LINE NO. : 139
+# 140 "<previous_module>"
+LINE NO. : 140
+typedef int int_fast16_t;
+LINE NO. : 140
+# 141 "<previous_module>"
+LINE NO. : 141
+typedef int uint_fast16_t;
+LINE NO. : 141
+# 142 "<previous_module>"
+LINE NO. : 142
+typedef int int_fast32_t;
+LINE NO. : 142
+# 143 "<previous_module>"
+LINE NO. : 143
+typedef int uint_fast32_t;
+LINE NO. : 143
+# 144 "<previous_module>"
+LINE NO. : 144
+typedef int int_fast64_t;
+LINE NO. : 144
+# 145 "<previous_module>"
+LINE NO. : 145
+typedef int uint_fast64_t;
+LINE NO. : 145
+# 146 "<previous_module>"
+LINE NO. : 146
+typedef int intptr_t;
+LINE NO. : 146
+# 147 "<previous_module>"
+LINE NO. : 147
+typedef int uintptr_t;
+LINE NO. : 147
+# 148 "<previous_module>"
+LINE NO. : 148
+typedef int intmax_t;
+LINE NO. : 148
+# 149 "<previous_module>"
+LINE NO. : 149
+typedef int uintmax_t;
+LINE NO. : 149
+# 150 "<previous_module>"
+LINE NO. : 150
+typedef _Bool bool;
+LINE NO. : 150
+# 151 "<previous_module>"
+LINE NO. : 151
+typedef void BZFILE;
+LINE NO. : 151
+# 152 "<previous_module>"
+LINE NO. : 152
+typedef int va_list;
+LINE NO. : 152
+# 153 "<previous_module>"
+LINE NO. : 153
+typedef int loff_t;
+LINE NO. : 153
+# 154 "<previous_module>"
+LINE NO. : 154
+typedef int _____STOPSTRIPPINGFROMHERE_____;
+LINE NO. : 154
+# 155 "<previous_module>"
+LINE NO. : 155
+int flag1 = 0;
+LINE NO. : 155
+# 156 "<previous_module>"
+LINE NO. : 156
+int flag2 = 0;
+LINE NO. : 156
+# 157 "<previous_module>"
+LINE NO. : 157
+int turn;
+LINE NO. : 157
+# 158 "<previous_module>"
+LINE NO. : 158
+int x;
+LINE NO. : 158
+# 159 "<previous_module>"
+LINE NO. : 159
+void *thr1(void *__cs_unused)
+LINE NO. : 159
+# 160 "<previous_module>"
+LINE NO. : 160
+{
+LINE NO. : 160
+# 161 "<previous_module>"
+LINE NO. : 161
+flag1 = 1;
+LINE NO. : 161
+# 162 "<previous_module>"
+LINE NO. : 162
+turn = 1;
+LINE NO. : 162
+# 163 "<previous_module>"
+LINE NO. : 163
+while ((flag2 == 1) && (turn == 1))
+LINE NO. : 163
+# 164 "<previous_module>"
+LINE NO. : 164
+    {
+LINE NO. : 165
+    }
+LINE NO. : 165
+# 166 "<previous_module>"
+LINE NO. : 166
+;
+LINE NO. : 166
+# 167 "<previous_module>"
+LINE NO. : 167
+x = 0;
+LINE NO. : 167
+# 168 "<previous_module>"
+LINE NO. : 168
+if (!(x <= 0))
+LINE NO. : 168
+# 169 "<previous_module>"
+LINE NO. : 169
+    {
+LINE NO. : 169
+# 170 "<previous_module>"
+LINE NO. : 170
+assert(0);
+LINE NO. : 171
+    }
+LINE NO. : 171
+# 172 "<previous_module>"
+LINE NO. : 172
+flag1 = 0;
+LINE NO. : 173
+}
+LINE NO. : 173
+# 174 "<previous_module>"
+LINE NO. : 174
+void *thr2(void *__cs_unused)
+LINE NO. : 174
+# 175 "<previous_module>"
+LINE NO. : 175
+{
+LINE NO. : 175
+# 176 "<previous_module>"
+LINE NO. : 176
+flag2 = 1;
+LINE NO. : 176
+# 177 "<previous_module>"
+LINE NO. : 177
+turn = 0;
+LINE NO. : 177
+# 178 "<previous_module>"
+LINE NO. : 178
+while ((flag1 == 1) && (turn == 0))
+LINE NO. : 178
+# 179 "<previous_module>"
+LINE NO. : 179
+    {
+LINE NO. : 180
+    }
+LINE NO. : 180
+# 181 "<previous_module>"
+LINE NO. : 181
+;
+LINE NO. : 181
+# 182 "<previous_module>"
+LINE NO. : 182
+x = 1;
+LINE NO. : 182
+# 183 "<previous_module>"
+LINE NO. : 183
+if (!(x >= 1))
+LINE NO. : 183
+# 184 "<previous_module>"
+LINE NO. : 184
+    {
+LINE NO. : 184
+# 185 "<previous_module>"
+LINE NO. : 185
+flag1 = flag1;
+LINE NO. : 185
+# 186 "<previous_module>"
+LINE NO. : 186
+flag2 = flag2;
+LINE NO. : 186
+# 187 "<previous_module>"
+LINE NO. : 187
+assert(0);
+LINE NO. : 188
+    }
+LINE NO. : 188
+# 189 "<previous_module>"
+LINE NO. : 189
+flag2 = 0;
+LINE NO. : 190
+}
+LINE NO. : 190
+# 191 "<previous_module>"
+LINE NO. : 191
+int main()
+LINE NO. : 191
+# 192 "<previous_module>"
+LINE NO. : 192
+{
+LINE NO. : 192
+# 193 "<previous_module>"
+LINE NO. : 193
+pthread_t t1;
+LINE NO. : 193
+# 194 "<previous_module>"
+LINE NO. : 194
+pthread_t t2;
+LINE NO. : 194
+# 195 "<previous_module>"
+LINE NO. : 195
+pthread_create(&t1, 0, thr1, 0);
+LINE NO. : 195
+# 196 "<previous_module>"
+LINE NO. : 196
+pthread_create(&t2, 0, thr2, 0);
+LINE NO. : 196
+# 197 "<previous_module>"
+LINE NO. : 197
+pthread_join(t1, 0);
+LINE NO. : 197
+# 198 "<previous_module>"
+LINE NO. : 198
+pthread_join(t2, 0);
+LINE NO. : 198
+# 199 "<previous_module>"
+LINE NO. : 199
+return 0;
+LINE NO. : 200
+}
+[02] ok 0.00s */
+typedef int _____STARTSTRIPPINGFROMHERE_____;
+typedef int __cs_barrier_t;
+typedef int __cs_barrierattr_t;
+typedef int __cs_attr_t;
+typedef int __cs_cond_t;
+typedef int __cs_condattr_t;
+typedef int __cs_key_t;
+typedef int __cs_mutex_t;
+typedef int __cs_mutexattr_t;
+typedef int __cs_once_t;
+typedef int __cs_rwlock_t;
+typedef int __cs_rwlockattr_t;
+typedef int __cs_t;
+typedef int size_t;
+typedef int __builtin_va_list;
+typedef int __gnuc_va_list;
+typedef int __int8_t;
+typedef int __uint8_t;
+typedef int __int16_t;
+typedef int __uint16_t;
+typedef int __int_least16_t;
+typedef int __uint_least16_t;
+typedef int __int32_t;
+typedef int __uint32_t;
+typedef int __int64_t;
+typedef int __uint64_t;
+typedef int __int_least32_t;
+typedef int __uint_least32_t;
+typedef int __s8;
+typedef int __u8;
+typedef int __s16;
+typedef int __u16;
+typedef int __s32;
+typedef int __u32;
+typedef int __s64;
+typedef int __u64;
+typedef int _LOCK_T;
+typedef int _LOCK_RECURSIVE_T;
+typedef int _off_t;
+typedef int __dev_t;
+typedef int __uid_t;
+typedef int __gid_t;
+typedef int _off64_t;
+typedef int _fpos_t;
+typedef int _ssize_t;
+typedef int wint_t;
+typedef int _mbstate_t;
+typedef int _flock_t;
+typedef int _iconv_t;
+typedef int __ULong;
+typedef int __FILE;
+typedef int ptrdiff_t;
+typedef int wchar_t;
+typedef int __off_t;
+typedef int __pid_t;
+typedef int __loff_t;
+typedef int u_char;
+typedef int u_short;
+typedef int u_int;
+typedef int u_long;
+typedef int ushort;
+typedef int uint;
+typedef int clock_t;
+typedef int time_t;
+typedef int daddr_t;
+typedef int caddr_t;
+typedef int ino_t;
+typedef int off_t;
+typedef int dev_t;
+typedef int uid_t;
+typedef int gid_t;
+typedef int pid_t;
+typedef int key_t;
+typedef int ssize_t;
+typedef int mode_t;
+typedef int nlink_t;
+typedef int fd_mask;
+typedef int _types_fd_set;
+typedef int fd_set;
+typedef int clockid_t;
+typedef int timer_t;
+typedef int useconds_t;
+typedef int suseconds_t;
+typedef int FILE;
+typedef int fpos_t;
+typedef int cookie_read_function_t;
+typedef int cookie_write_function_t;
+typedef int cookie_seek_function_t;
+typedef int cookie_close_function_t;
+typedef int cookie_io_functions_t;
+typedef int div_t;
+typedef int ldiv_t;
+typedef int lldiv_t;
+typedef int sigset_t;
+typedef int __sigset_t;
+typedef int _sig_func_ptr;
+typedef int sig_atomic_t;
+typedef int __tzrule_type;
+typedef int __tzinfo_type;
+typedef int mbstate_t;
+typedef int sem_t;
+typedef int pthread_t;
+typedef int pthread_attr_t;
+typedef int pthread_mutex_t;
+typedef int pthread_mutexattr_t;
+typedef int pthread_cond_t;
+typedef int pthread_condattr_t;
+typedef int pthread_key_t;
+typedef int pthread_once_t;
+typedef int pthread_rwlock_t;
+typedef int pthread_rwlockattr_t;
+typedef int pthread_spinlock_t;
+typedef int pthread_barrier_t;
+typedef int pthread_barrierattr_t;
+typedef int jmp_buf;
+typedef int rlim_t;
+typedef int sa_family_t;
+typedef int sigjmp_buf;
+typedef int stack_t;
+typedef int siginfo_t;
+typedef int z_stream;
+typedef int int8_t;
+typedef int uint8_t;
+typedef int int16_t;
+typedef int uint16_t;
+typedef int int32_t;
+typedef int uint32_t;
+typedef int int64_t;
+typedef int uint64_t;
+typedef int int_least8_t;
+typedef int uint_least8_t;
+typedef int int_least16_t;
+typedef int uint_least16_t;
+typedef int int_least32_t;
+typedef int uint_least32_t;
+typedef int int_least64_t;
+typedef int uint_least64_t;
+typedef int int_fast8_t;
+typedef int uint_fast8_t;
+typedef int int_fast16_t;
+typedef int uint_fast16_t;
+typedef int int_fast32_t;
+typedef int uint_fast32_t;
+typedef int int_fast64_t;
+typedef int uint_fast64_t;
+typedef int intptr_t;
+typedef int uintptr_t;
+typedef int intmax_t;
+typedef int uintmax_t;
+typedef _Bool bool;
+typedef void BZFILE;
+typedef int va_list;
+typedef int loff_t;
+typedef int _____STOPSTRIPPINGFROMHERE_____;
+int flag1 = 0;
+int flag2 = 0;
+int turn;
+int x;
+void *thr1(void *__cs_unused)
+{
+flag1 = 1;
+turn = 1;
+while ((flag2 == 1) && (turn == 1))
+    {
+    }
+;
+x = 0;
+if (!(x <= 0))
+    {
+assert(0);
+    }
+flag1 = 0;
+}
+void *thr2(void *__cs_unused)
+{
+flag2 = 1;
+turn = 0;
+while ((flag1 == 1) && (turn == 0))
+    {
+    }
+;
+x = 1;
+if (!(x >= 1))
+    {
+flag1 = flag1;
+flag2 = flag2;
+assert(0);
+    }
+flag2 = 0;
+}
+int main()
+{
+pthread_t t1;
+pthread_t t2;
+pthread_create(&t1, 0, thr1, 0);
+pthread_create(&t2, 0, thr2, 0);
+pthread_join(t1, 0);
+pthread_join(t2, 0);
+return 0;
+}
+

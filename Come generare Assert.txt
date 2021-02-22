@@ -1,0 +1,13 @@
+Esecuzione 1. Assert(0) FALSE.
+Funzione iniziale, eseguiamo lazy, cbmc e catturiamo traccia d'errore importandola in un file TRACE.TXT
+Avremo lo stato della struttura dati. Da qui generiamo l'assert per l'esecuzione 2. Con lo script in python andiamo a modificare l'assert nel atomico.c .
+Esecuzione 2. Se Assert ( Proprietà/stato catturate in esecuzione 1) =  assert TRUE significa che ho trovato uno stato già incontrato nell'esecuzione 1. Ripeti esecuzione.
+              Se Assert ( Proprietà/stato catturate in esecuzione 1) =  assert FALSE significa che ho trovato uno stato NON incontrato nell'esecuzione 1.  
+              Da qui generiamo l'assert per l'esecuzione 3, concatenandolo attraverso un OR allo stato assert esecuzione 2. Con lo script in python andiamo a modificare l'assert nel atomico.c . 
+Esecuzione 3. Se Assert ( (Proprietà/stato catturate in esecuzione 1) OR (Proprietà/stato catturate in esecuzione 2)) =  assert TRUE Ripeti esecuzione.
+              Se Assert ( (Proprietà/stato catturate in esecuzione 1) OR (Proprietà/stato catturate in esecuzione 2)) =  assert FALSE Significa che ho trovato uno stato NON incontrato nell'esecuzione 1 o 2.  
+Da qui generiamo l'assert per l'esecuzione 4, concatenandolo attraverso un OR allo stato assert esecuzione 2. Con lo script in python andiamo a modificare l'assert nel atomico.c . 
+Esecuzione N...
+
+Dobbiamo capire quando interrompere lo script, questo attraverso una serie di test che dobbiamo fare.
+                                                                                                                         
